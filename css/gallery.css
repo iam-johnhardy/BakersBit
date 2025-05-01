@@ -98,6 +98,7 @@
     margin: 0 auto;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    position: relative;
 }
 
 .feedback-container textarea {
@@ -137,6 +138,19 @@
 #feedback-display strong{
     font-weight: bold;
 }
+.feedback-container .icon1{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: -10px;
+}
+.feedback-container .icon2{
+    position: absolute;
+    font-size: 20px;
+    bottom: 0px;
+    left: -20px;
+}
+
 
 /* end of feedback section */
 
